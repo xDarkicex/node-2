@@ -17,4 +17,4 @@ use database_name
 ```
 
 
-[@bitdevio/BITDEV.io© 2020](https://github.com/bitdevio)
+[BITDEV.io© 2020](https://github.com/bitdevio)
