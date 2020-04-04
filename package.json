@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": ""
+    "start": "node index.js"
   },
   "author": "Gentry Rolofson",
   "license": "MIT",
+  "reposittory": "https://github.com/xDarkicex/node-2",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
