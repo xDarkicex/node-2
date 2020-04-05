@@ -1,5 +1,5 @@
 {
-  "name": "backend-testing-mssql",
+  "name": "M.E.A.N STACK",
   "version": "0.0.1",
   "description": "fake date for testing mssql",
   "main": "index.js",
@@ -9,13 +9,16 @@
   },
   "author": "Gentry Rolofson",
   "license": "MIT",
-  "reposittory": "https://github.com/xDarkicex/node-2",
+  "repository": "https://github.com/xDarkicex/node-2",
   "dependencies": {
+    "@types/mongodb": "^3.5.4",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "gulp": "^4.0.2",
     "mongodb": "^3.5.5",
-    "mssql": "^6.0.1"
+    "mssql": "^6.0.1",
+    "pug": "^2.0.4"
   }
 }
