@@ -1,14 +1,14 @@
 {
   "name": "M.E.A.N STACK",
-  "version": "0.0.1",
-  "description": "fake date for testing mssql",
+  "version": "0.0.5",
+  "description": "sample M.E.A.N Stack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "Gentry Rolofson",
-  "license": "MIT",
+  "license": "Creative Commons Attribution Share Alike 4.0 International",
   "repository": "https://github.com/xDarkicex/node-2",
   "dependencies": {
     "@types/mongodb": "^3.5.4",
@@ -16,9 +16,13 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "fomantic-ui": "^2.8.5-beta.39",
     "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
     "mongodb": "^3.5.5",
     "mssql": "^6.0.1",
-    "pug": "^2.0.4"
+    "path": "^0.12.7",
+    "pug": "^2.0.4",
+    "serve-static": "^1.14.1"
   }
 }

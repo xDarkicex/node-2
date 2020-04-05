@@ -7,7 +7,7 @@
 // N = Node
 const express = require("express");
 const env = require('dotenv')
-
+const path = require('path')
 // datastore consts
 const mongodb = require('mongodb');
 const datastore = mongodb.MongoClient;
@@ -57,5 +57,6 @@ app.route('/Node').get(function(w, r) {
 app.route('/Angular').get((w, r) => {
   r.render('index', {title: 'ANGULAR', message: 'Angular JS', content: "Interviews with all the pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg"})
 })
+app.use(express.static(path.join(__dirname, 'public')));
 
 const server = app.listen(3001, () => {})
